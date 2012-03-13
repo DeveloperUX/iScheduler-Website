@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #797A79;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#master {
+	display: block;
+	margin: 15 auto;
+	width: 858;
+	height: auto;
+}
+
+#logo {
+	background-image: url(images/layout_01.png);
+	width: 858;
+	height: 102;
+}
+#navigation {
+	background-image: url(images/layout_02.png);
+	height: 55;	
+	width: 858;
+
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#navigation a {
+	background-image:url(images/divider.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	float: left;
+	display: inline-block;
+	display: block;
+	margin-top: 7;
+	padding: 11 15 12 15;
+	
+	text-decoration: none;
+	color: black;
+}
+#navigation .first a {
+	margin-left: 80;
+	background-image: none;
+}
+#navigation #active a {
+	color: green;
+}
+#navigation a:visited { 
+	text-decoration: none; 
+	color: black;
+}
+#navigation a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+#navigation ul {
+	list-style: none;
+}
+#navigation li {
+	display: inline;
+}
+
+#center_top {
+	background-image: url(images/layout_03.png);
+	width: 858;
+	height: 29;
+}
+#center_container {
+	background-image: url(images/layout_04.png);
+	background-repeat: repeat-y;
+	width: 858;
+	height: auto;
+}
+#center_bottom {
+	background-image: url(images/layout_06.png);
+	width: 858;
+	height: 29;
+}
+
+#text_area {
+	margin: 0 60 0 50;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: white;
+	text-align: justify;
+}
+#text_area h2 {
+	font-variant: small-caps;
+	color: #3F0;
+}
+#text_area h3 {
+	color: #090;
+}
+#text_area a {
+	text-decoration: none;
+	color: #999;
+}
+#text_area a:hover {
+	text-decoration: underline;
+	color: #CCC;
+}
+
+#footer {
+	background-image: url(images/layout_07.png);
+	width: 858;
+	height: 52;
+	font-size: 12px;
+}
+#footer_text {
+	margin: 0 50 10 50;
+	padding-top: 5;
+	color: black;
+}
